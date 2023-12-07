@@ -9,8 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "jspdf": "^2.5.1",
+    "@types/pdfmake": "^0.2.8",
     "next": "14.0.3",
+    "pdfmake": "^0.2.8",
     "react": "^18",
     "react-dom": "^18"
   },

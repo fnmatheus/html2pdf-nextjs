@@ -1,11 +1,9 @@
 'use client';
-import { useRouter } from 'next/navigation';
+import createPdf from './utils/pdf';
 
 const Home = () => {
-  const router = useRouter();
-
   const handleGeneratePdf = () => {
-		router.push(`/pdfgenerate/?info=${JSON.stringify(['info'])}`);
+    createPdf();
 	};
 
   return (
