@@ -1,2 +1,2 @@
-## CREATE PDF USING JS
+## CREATE PDF USING TS
 repository using pdfmake for example
