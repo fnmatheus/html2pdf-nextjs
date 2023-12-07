@@ -4,6 +4,8 @@ export const styles = {
     marginRight: '5rem',
     'page-break-after': 'always',
   },
+  
+  introText: {},
 
   columnLayout: {
     display: 'flex',
